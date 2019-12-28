@@ -29,4 +29,4 @@ def test_wallet_spend_cash_raises_exception_on_insufficient_amount():
 def test_wallet_spend_cash_wrong():
 	wallet = Wallet(20)
 	wallet.spend_cash(20)
-	assert wallet.balance == 1
+	assert wallet.balance == 0
