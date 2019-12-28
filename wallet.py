@@ -14,4 +14,4 @@ class Wallet(object):
         self.balance -= amount
 
     def add_cash(self, amount):
-        self.balance += amount
+        raise NotImplementedError
